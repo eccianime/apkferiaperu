@@ -1,0 +1,15 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets" xmlns:gap = "http://phonegap.com/ns/1.0" id = "com.jeanpaul.ftperu2018" version = "2.0.0">
+<name>Feria Textil Peru 2018</name>
+<description>
+Aplicacion para la feria textil de peru
+</description>
+<author href = "http://jeanpaulrojas.zz.com.ve" email = "ingjeanpaulrojas@gmail.com">
+Jean Paul Rojas
+</author>
+<feature name = "http://api.phonegap.com/1.0/device"/>
+<preference name = "orientation" value = "portrait"/>
+<preference name = "target-device" value = "universal"/>
+<preference name = "fullscreen" value = "false"/>
+<icon src = "img/favicon.png"/>
+</widget>

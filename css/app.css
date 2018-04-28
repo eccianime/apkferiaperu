@@ -1,0 +1,301 @@
+@font-face{
+	font-family: 'Ubuntu Light';
+	src: url("../fonts/Ubuntu-L.ttf");
+}
+
+@font-face{
+	font-family: 'Ubuntu';
+	src: url("../fonts/Ubuntu-R.ttf");
+}
+
+*{
+	font-family: "Ubuntu";
+	font-weight: lighter;
+}
+
+h1{
+	font-weight: bold;
+}
+
+.pull-left{
+	float: left;
+	display: inline;
+}
+
+.pull-center{
+	text-align: center;
+	display: inline;
+	font-size: 1.3em;
+}
+
+.pull-right{
+	float: right;
+	display: inline;
+}
+
+.portada{
+	background-image: url( ../img/portada.jpg );
+	background-position: center center;
+	background-size: cover;
+}
+
+.contenido{
+	background-image: url( ../img/contenido.jpg );
+	background-position: center center;
+	background-size: cover;
+}
+
+.logocentral{
+	margin: 15%;
+	width: 70%;
+	position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-70%, -50%);
+}
+
+.bg-trans{
+	background-color: transparent;
+	border-style: none;
+}
+
+.ui-overlay-b > li{
+	background-color: transparent;
+}
+
+.div-header{
+	height: 55px;
+}
+
+.div-header-min{
+	height: 30px;
+}
+
+.div-footer{
+	height: 80px;
+	line-height: 2px;
+	font-family: 'Ubuntu';
+	font-size: .9em
+}
+
+.div-footer-min{
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	height: 40px;
+	font-family: 'Ubuntu';
+}
+
+.text-center{
+	text-align: center;
+}
+
+.letra-blanca, 
+.ui-page-theme-b a,
+html .ui-bar-b a,
+html .ui-body-b a,
+html body .ui-group-theme-b a,
+.ui-page-theme-b a:visited,
+html .ui-bar-b a:visited,
+html .ui-body-b a:visited,
+html body .ui-group-theme-b a:visited,
+.ui-page-theme-b a:active,
+html .ui-bar-b a:active,
+html .ui-body-b a:active,
+html body .ui-group-theme-b a:active{
+	color: white;
+	text-shadow: none;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+.letra-negra{
+	color: black;
+	text-shadow: none;
+}
+
+.letra-roja{
+	color: red;
+	text-shadow: none;
+}
+
+.bg-red{
+	padding: 10px 0px;
+	height: 30px;
+	border-style: none;
+	background-color: red;
+}
+
+.bg-gray{
+	padding: 10px 0px;
+	height: 30px;
+	border-style: none;
+	background-color: gray;
+}
+
+.bg-white{
+	border-style: none;
+	background-color: white;
+}
+
+.caja1{
+	display: inline-block;
+	font-size: .9em;
+	width: 70%;
+}
+
+.caja2{
+	display: inline-block;
+	width: 30%;
+	font-size: .7em;
+}
+
+.bigger-font{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.big-font{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.lista{
+	margin: 15% 10%;
+	width: 80%;
+	font-size: 2em;
+	text-align: left;
+}
+
+.lista > .ui-btn{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: 'Ubuntu Light';
+	text-align: left;
+	font-size: .7em;
+	font-weight: lighter;
+	background-color: transparent;
+	border-color: transparent;
+	box-shadow: none;
+	border-bottom: solid white 2px;
+	border-radius: 0px;
+	padding: 0px;
+}
+
+.lista > .ui-btn:focus, 
+.lista > .ui-btn:active,
+.lista > .ui-btn:hover,
+.lista > .ui-btn:visited{
+	background-color: transparent;
+	box-shadow: none;
+	text-shadow: none;
+	border-bottom: solid white 2px;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+}
+
+.lista > a:last-child
+,.lista > a:last-child:focus
+,.lista > a:last-child:active
+,.lista > a:last-child:hover{
+	border-bottom-style: none;
+}
+
+.fa-mx{
+	font-size: 1.5em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.ui-link > *{
+	color: white;
+}
+
+.img-responsive{
+	width: 100%
+}
+
+.parrafo{
+	text-align: justify;
+	padding: 0px 5%;
+	color: #666;
+	text-shadow: none;
+}
+
+.ui-collapsible-inset, .ui-collapsible-set{
+	margin-bottom: 50px;
+}
+
+.ui-page-theme-e .ui-btn,
+ html .ui-bar-e .ui-btn,
+ html .ui-body-e .ui-btn,
+ html body .ui-group-theme-e .ui-btn,
+ html head+body .ui-btn.ui-btn-e,
+ .ui-page-theme-e .ui-btn,
+ html .ui-bar-e .ui-btn,
+ html .ui-body-e .ui-btn,
+ html body .ui-group-theme-e .ui-btn,
+ html head+body .ui-btn.ui-btn-e,
+ .ui-page-theme-e .ui-btn:visited,
+ html .ui-bar-e .ui-btn:visited,
+ html .ui-body-e .ui-btn:visited,
+ html body .ui-group-theme-e .ui-btn:visited,
+ html head+body .ui-btn.ui-btn-e:visited,
+ .ui-page-theme-e .ui-btn:hover,
+ html .ui-bar-e .ui-btn:hover,
+ html .ui-body-e .ui-btn:hover,
+ html body .ui-group-theme-e .ui-btn:hover,
+ html head+body .ui-btn.ui-btn-e:hover,
+ .ui-page-theme-e .ui-btn:focus,
+ html .ui-bar-e .ui-btn:focus,
+ html .ui-body-e .ui-btn:focus,
+ html body .ui-group-theme-e .ui-btn:focus,
+ html head+body .ui-btn.ui-btn-e:focus{
+ 	color: red;
+ 	background-color: white;
+ 	border-style: none;
+ 	box-shadow: none;
+ 	text-shadow: none;
+ }
+
+.ui-btn-icon-left:after, 
+.ui-btn-icon-right:after, 
+.ui-btn-icon-top:after, 
+.ui-btn-icon-bottom:after, 
+.ui-btn-icon-notext:after{
+	background-color: red;
+}
+
+.col-6{
+	display: inline-block;
+	width: 40%;
+	padding: 4%;
+}
+
+.rounded{
+	min-width: 70px;
+	max-width: 150px;
+	padding: 5px 30px 7px 30px;
+    border-radius: 20px;
+}
+
+.bg-red-expo{
+	background-color: rgb( 207, 23, 26 );
+	border-color: rgb( 207, 23, 26 );
+}
+
+.bg-blue-expo{
+	background-color: rgb( 27, 135, 200 );
+	border-color: rgb( 27, 135, 200 );
+}
+
+.bg-green-expo{
+	background-color: rgb( 172, 199, 19 );
+	border-color: rgb( 172, 199, 19 );
+}
+
+.bg-orange-expo{
+	background-color: rgb( 234, 102, 12 );
+	border-color: rgb( 234, 102, 12 );
+}
