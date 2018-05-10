@@ -33,7 +33,7 @@ h1{
 	display: inline;
 }
 
-.portada{
+#portada{
 	background-image: url( ../img/portada.jpg );
 	background-position: center center;
 	background-size: cover;
@@ -99,6 +99,10 @@ html body .ui-group-theme-b a,
 html .ui-bar-b a:visited,
 html .ui-body-b a:visited,
 html body .ui-group-theme-b a:visited,
+.ui-page-theme-b a:hover,
+html .ui-bar-b a:hover,
+html .ui-body-b a:hover,
+html body .ui-group-theme-b a:hover
 .ui-page-theme-b a:active,
 html .ui-bar-b a:active,
 html .ui-body-b a:active,
@@ -133,21 +137,29 @@ html body .ui-group-theme-b a:active{
 	background-color: gray;
 }
 
+.ui-overlay-b, .ui-page-theme-b, .ui-page-theme-b .ui-panel-wrapper{
+	background-color: rgb( 83, 83, 83 );
+}
 .bg-white{
 	border-style: none;
 	background-color: white;
 }
 
+
 .caja1{
 	display: inline-block;
 	font-size: .9em;
 	width: 70%;
+	text-shadow: none;
+	border-color: red;
 }
 
 .caja2{
+	border-color: yellow;
 	display: inline-block;
 	width: 30%;
 	font-size: .7em;
+	text-shadow: none;
 }
 
 .bigger-font{
@@ -182,6 +194,15 @@ html body .ui-group-theme-b a:active{
 	padding: 0px;
 }
 
+.lista-min{
+	width: 90%;
+	margin: 15% 5%;
+}
+
+.lista-min > .ui-btn{
+	font-size: .5em;
+}
+
 .lista > .ui-btn:focus, 
 .lista > .ui-btn:active,
 .lista > .ui-btn:hover,
@@ -214,6 +235,21 @@ html body .ui-group-theme-b a:active{
 
 .img-responsive{
 	width: 100%
+}
+
+.img-80{
+	width: 80%;
+}
+
+.img-margin{
+	margin-left: 10%;
+	margin-top: 15%;
+}
+
+.img-marginless{
+	margin-top: -5%;
+	margin-left: -5%;
+	width: 110%;
 }
 
 .parrafo{
@@ -271,6 +307,12 @@ html body .ui-group-theme-b a:active{
 	display: inline-block;
 	width: 40%;
 	padding: 4%;
+}
+
+.col-3{
+	width: 20%;
+	margin: 2%;
+	display: inline-block;
 }
 
 .rounded{
